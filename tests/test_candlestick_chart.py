@@ -5,7 +5,7 @@ import unittest
 
 import pandas as pd
 
-from services import CandlestickChart
+from candlestick_chart.services import CandlestickChart
 from tests.recipes import test_data
 
 

@@ -86,7 +86,7 @@ class CandlestickChart:
         )
 
     def save_result_csv(self) -> None:
-        self.candlestick_df.to_csv("result.csv", index_label="Timestamp")
+        self.candlestick_df.to_csv("../result.csv", index_label="Timestamp")
 
     def plot_candlestick_chart(self) -> None:
         """

@@ -1,7 +1,7 @@
 import os
 import re
 
-from services import CandlestickChart
+from candlestick_chart.services import CandlestickChart
 
 
 def get_data_file_path() -> str:
